@@ -1,0 +1,62 @@
+body{
+    font-family: 'Sen', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+.container{
+    background-color: gainsboro;
+    width: 50%;
+    padding: 5%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+.btn-warning{
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    font-size: 24px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: absolute; 
+    right: -7px;
+}
+
+
+.btn-danger{
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+    text-align: center;
+    position: absolute;
+    right: -4px;
+    top: 28px;
+}
+
+#note:focus{
+    box-shadow: none;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.one-note{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.one-note input{
+    margin-top: 30px;
+}
